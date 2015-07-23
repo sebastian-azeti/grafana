@@ -2,7 +2,7 @@
   "title": "Home",
   "tags": [],
   "style": "dark",
-  "timezone": "browser",
+  "timezone": "utc",
   "editable": false,
   "hideControls": true,
   "rows": [

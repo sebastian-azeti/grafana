@@ -7,7 +7,7 @@
     "templated"
   ],
   "style": "dark",
-  "timezone": "browser",
+  "timezone": "utc",
   "editable": true,
   "hideControls": false,
   "rows": [

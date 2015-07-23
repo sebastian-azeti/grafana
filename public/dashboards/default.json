@@ -2,7 +2,7 @@
   "title": "Grafana",
   "tags": [],
   "style": "dark",
-  "timezone": "browser",
+  "timezone": "utc",
   "editable": true,
   "rows": [
     {
@@ -99,7 +99,7 @@
           },
           "interactive": true,
           "legend_counts": true,
-          "timezone": "browser",
+          "timezone": "utc",
           "percentage": false,
           "nullPointMode": "connected",
           "steppedLine": false,
