@@ -302,10 +302,6 @@ func loadConfiguration(args *CommandLineArgs) {
 	// load default overrides
 	applyCommandLineDefaultProperties(commandLineProps)
 
-	// init logging before specific config so we can log errors from here on
-	DataPath = makeAbsolute(Cfg.Section("paths").Key("data").String(), HomePath)
-	initLogging(args)
-
 	// load specified config file
 	loadSpecifedConfigFile(args.Config)
 
