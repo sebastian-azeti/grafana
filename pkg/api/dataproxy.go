@@ -98,6 +98,8 @@ func ProxyDataSourceRequest(c *middleware.Context) {
 
 	if ds.Type == m.DS_CLOUDWATCH {
 		cloudwatch.HandleRequest(c)
+	} else if ds.Type == m.DS_JSON {
+		ProxyJsonDataSourceRequest(ds, c)
 	} else {
 		proxyPath := c.Params("*")
 		proxy := NewReverseProxy(ds, proxyPath, targetUrl)
