@@ -16,6 +16,10 @@ dropdown. This will open the `Annotations` edit view. Click the `Add` tab to add
 
 > Note: Annotations apply to all graphs in a given dashboard, not on a per-panel basis.
 
+### Column Mappings
+
+You can format the annotation appearance in the graph by mapping data source columns to the fields title, tag and text. Enter the appropriate field name from your query in the corresponding column to do so.
+
 ## Graphite annotations
 
 Graphite supports two ways to query annotations.
